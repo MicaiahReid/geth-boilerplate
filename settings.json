@@ -1,0 +1,7 @@
+{
+  "accounts": [{ "balance": "0xffff" }, { "balance": "0xffff" }],
+  "port": "8545",
+  "networkId": 15,
+  "origin": "127.0.0.1",
+  "scriptsDir": "./custom"
+}

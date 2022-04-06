@@ -1,0 +1,19 @@
+{
+  "name": "geth-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset": "node index.js reset",
+    "init": "node index.js reset",
+    "start:http": "node index.js start-http",
+    "start": "npm run start:http",
+    "start:ws": "node index.js start-ws",
+    "restart:http": "npm run reset && npm run start:http",
+    "restart:ws": "npm run reset && npm run start:ws",
+    "restart": "npm run restart:http"
+  },
+  "author": "Micaiah Reid",
+  "license": "ISC"
+}
